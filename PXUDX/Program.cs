@@ -231,19 +231,11 @@ class Program
         Console.ForegroundColor =
             ConsoleColor.Cyan;
 
-        Console.WriteLine(
-            "========================================");
-
-        Console.WriteLine(
-            "                 CTVM");
-
-        Console.WriteLine(
-            "                Updater");
-
-        Console.WriteLine(
-            "========================================");
+        //ascii title
+        Console.WriteLine("██████╗ ██╗  ██╗██╗   ██╗██████╗ ██╗  ██╗\r\n██╔══██╗╚██╗██╔╝██║   ██║██╔══██╗╚██╗██╔╝\r\n██████╔╝ ╚███╔╝ ██║   ██║██║  ██║ ╚███╔╝ \r\n██╔═══╝  ██╔██╗ ██║   ██║██║  ██║ ██╔██╗ \r\n██║     ██╔╝ ██╗╚██████╔╝██████╔╝██╔╝ ██╗\r\n╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝\r\n                                         ");
 
         Console.ResetColor();
+        Console.Title = "PXUDX";
     }
 
     //ct/vm list
