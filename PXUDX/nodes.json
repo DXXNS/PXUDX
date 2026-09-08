@@ -1,0 +1,11 @@
+{
+  "nodes": [
+    {
+      "name": "Nodename",
+      "host": "192.168.100.X",
+      "username": "root",
+      "password": "XXXXXXX",
+      "port": 22
+    }
+  ]
+}
